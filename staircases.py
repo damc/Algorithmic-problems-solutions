@@ -45,7 +45,7 @@ def staircases(n, max_height, previous_steps):
     Args:
         n (int): number of bricks to construct the staircase from
         max_height (int, float): max allowed height of a step
-        previous_steps: number of previous steps in the staircase
+        previous_steps (int): number of previous steps in the staircase
 
     Returns:
         int: number of possible staircases.
